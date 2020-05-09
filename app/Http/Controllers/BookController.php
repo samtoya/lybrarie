@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Filters\BookFilter;
 use App\Models\Book;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;

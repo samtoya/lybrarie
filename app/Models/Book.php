@@ -38,7 +38,6 @@ class Book extends Model
      *
      * @param $query
      * @param QueryFilter $filter
-     *
      * @return \Illuminate\Database\Eloquent\Builder
      */
     public function scopeFilter($query, QueryFilter $filter)
